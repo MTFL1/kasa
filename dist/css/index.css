@@ -1,0 +1,32 @@
+:root {
+  --primary: #FF6060;
+  --secondary: #F6F6F6;
+  --gray-2: #efefef;
+  --font-family: "Montserrat", sans-serif;
+  --box-shadow: 0 6px 9px 0 rgb(0 0 0 / 15%);
+  --box-shadow-nav: rgb(0 0 0 / 22%) 0px 2px 18px 0px;
+  --text-color: #444;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--gray-2);
+}
+
+body, html {
+  font-family: "Montserrat", "serif";
+  background-color: #FFFFFF;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url("../styles/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+/*# sourceMappingURL=index.css.map */

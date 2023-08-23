@@ -1,0 +1,10 @@
+@use '../../assets/styles/mixins' as mixin;
+
+.container {
+  padding-bottom: 50px;
+  width: 100%;
+}
+.b1 {
+  background-color: red;
+  border: 1px solid red;
+}
