@@ -1,4 +1,4 @@
-import styles from "../Banner/banner.scss";
+import styles from "../Banner/banner.scss"
 
 
 function Banner(props){
@@ -6,9 +6,9 @@ function Banner(props){
   
   
    return (
-       <div className={`${styles.banner}`}>
-           <img className={`${styles.imgBanner}`} src={image} alt=""/>
-           <span className={`${styles.textBanner} text-white font-weight-600`}>{text}</span>
+       <div className={`${styles.banner} b3`}>
+           <img className={`${styles.imgBanner} b4`} src={image} alt=""/>
+           <span className={`${styles.textBanner}  b2 font-weight-600`}>{text}</span>
        </div>
    )
   }
