@@ -1,0 +1,48 @@
+.header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+
+}
+.header__logo {
+        width: 15%;
+
+    }
+    .divLink{
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+.nav_link {
+                color: #FF6060;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 24px;
+}
+.nav_link:hover {
+    text-decoration: underline;
+}
+            
+
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        .header__logo {
+            width: 30%;
+        }
+
+                .nav_link {
+                    font-size: 18px;
+                }
+            }
+    
+
+        
+    }

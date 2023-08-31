@@ -1,0 +1,19 @@
+
+.Housetitle {
+    color: #FF6060 !important;
+    display: flex;
+    flex-direction: column;
+    h1 {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 52px;
+    }
+
+    h2 {
+        margin-bottom: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+}
+

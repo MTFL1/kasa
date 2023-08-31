@@ -1,19 +1,18 @@
 import React from 'react';
-import logements from '../../datas/logements.json' 
+import housing from '../../datas/housing.json' 
 import Card from '../Card' 
 import './galleryCard.scss'
-
 
 
 
 function GalleryCard() {
   return (
     <div className="container">
-      {logements.map((logement) => (
-             <Card key={logement.id} title={logement.title} cover={logement.cover}/>
-      ))}
+        {housing.map((housing) => (
+            <Card image={housing.cover} id={housing.id} title={housing.title} key={housing.id}/>
+        ))}
     </div>
-  );
+)
 }
 
 export default GalleryCard

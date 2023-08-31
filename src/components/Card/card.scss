@@ -2,15 +2,16 @@
 
 .card {
   position: relative;
-  border: 2px solid black;
+  filter: brightness(85%);
 }
 
 .image {
-  filter: brightness(60%);
+ 
   max-height: 255px;
   height: 100%;
   width: 100%;
   object-fit: cover;
+  border-radius: 20px;
   @include mixin.sm {
     max-height: 255px;
     min-width: 340px;
@@ -25,14 +26,15 @@
   }
 }
 
-.image:hover {
+.card:hover {
   transform: translateY(-3px);
-  filter: brightness(80%);
+  filter: brightness(100%);
   box-shadow: 5px 15px 15px var(--gray-2);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
-.title {
+.titleCard {
+  color: white !important;
   display: inline-flex;
   position: absolute;
   padding-inline-end: 40px;

@@ -1,12 +1,14 @@
-import React from 'react';
-import styles from '../Card/card.scss'
+import './card.scss'
 
-function Card(props) {
+function Card({id, title, image}) {
 	return (
-		<div className={`${styles.card} p-5`}>
-		  <img className={`${styles.image} border-radius-10 mb-20`} src={props.cover} alt="" />
-		  <span className={`${styles.title} text-white font-weight-600`}>{props.title}</span>
-		</div>
-	);
-  }
+	
+			<article key={id} className="card">
+				<a href={'/housing/' + id}>
+					<img className="image" src={image} alt={title}/>
+					<h1 className="titleCard">{title}</h1>
+				</a>
+			</article>
+		)
+	}
 export default Card

@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../../assets/images/Logo.png'
+import "./header.scss"
 
 function Header() {
   return (
-    <header className="d-flex flex-row align-items-center p-20">
-      <img className="logo" src={Logo} alt="" />
-      <div className="ml-auto font-size-12 font-weight-500">
-        <Link to={"/"} className="link text-primary mr-15"> ACCUEIL</Link>
-        <Link to={"About"} className="link text-primary">À PROPOS</Link>
+    <header className="header">
+        <Link to="/" className="header__logo"><img src={Logo} alt="Kasa logo"/></Link>
+      <div className="divLink active">      
+        <Link to="/" className="nav_link">Accueil</Link>
+        <Link to="/about" className="nav_link">A propos</Link>
       </div>
     </header>
   )

@@ -14,11 +14,15 @@
 body, html {
     font-family: "Montserrat", "serif";
     background-color: white;
-  
+    margin: auto;
+    max-width: 1400px;
   }
   
   @font-face {
     font-family: "Montserrat";
     src: local("Montserrat"), url("../styles/fonts/Montserrat-VariableFont_wght.ttf");
   }
-  
+
+header {
+  margin: 0 20px;
+}
