@@ -7,7 +7,7 @@ import "./home.scss"
 
 function Home(){
     return(
-      <div>
+      <div className="containerHome">
         <Banner image={imageWelcome} text={'Chez vous, partout et ailleurs'} />
             <GalleryCard />
           </div>

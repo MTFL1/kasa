@@ -10,7 +10,6 @@
 }
 .header__logo {
         width: 15%;
-
     }
     .divLink{
         width: 20%;
@@ -34,15 +33,18 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        .header__logo {
+    margin-left: 20px;
+    width: 90%;
+
+    .header__logo {
             width: 30%;
         }
-
+        .divLink{
+            margin-left: 30px;
+            width: 50%;
+        }
                 .nav_link {
                     font-size: 18px;
                 }
             }
-    
-
-        
     }

@@ -7,7 +7,7 @@ import './galleryCard.scss'
 
 function GalleryCard() {
   return (
-    <div className="container">
+    <div className="containerGallery">
         {housing.map((housing) => (
             <Card image={housing.cover} id={housing.id} title={housing.title} key={housing.id}/>
         ))}

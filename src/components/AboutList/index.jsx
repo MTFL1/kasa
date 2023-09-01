@@ -32,8 +32,8 @@ import Collapse from "../../components/Collapse";
 
   return (
     <div className="collapse_gallery">
-        {aboutData().map((data) => (
-            <Collapse title={data.title} content={data.text} key={data.id}/>
+        {aboutData().map((data, index) => (
+            <Collapse title={data.title} content={data.text} key={index}/>
         ))}
     </div>
 )

@@ -19,15 +19,14 @@ function Housing() {
     return (
         <main className="housing">
            <Carousel pictures={logement.pictures}/>
-           
             <div className="housing__info">
                 <div className="housing__presentation">
                     <HousingTitle title={logement.title} location={logement.location}/>
                     <Tags tags={logement.tags}/>
                 </div>
                 <div className="housing__rating">
-                    <HostInfo image={logement.host.picture} host={logement.host.name}/>
-                    <Rating stars={logement.rating}/>
+                    <HostInfo className="hostinfoDiv" image={logement.host.picture} host={logement.host.name}/>
+                    <Rating className="RatingDiv" stars={logement.rating}/>
                 </div>
 
             </div>
@@ -40,5 +39,4 @@ function Housing() {
     )
 
 }
-  /*  <Carousel imageArray={logement.pictures}/>*/
 export default Housing

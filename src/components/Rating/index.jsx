@@ -1,6 +1,6 @@
 import "./rating.scss";
-import redStar from "../../assets/images/starPrimary.svg"
-import greyStar from "../../assets/images/star.svg"
+import redStar from "../../assets/images/star-active.png"
+import greyStar from "../../assets/images/star-inactive.png"
 
 function Rating({stars}) {
 

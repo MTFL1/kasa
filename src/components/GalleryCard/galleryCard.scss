@@ -1,13 +1,14 @@
 @use "../../assets/styles/mixins" as mixin;
 
-.container {
+.containerGallery {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px 20px;
   position: relative;
   top: 50px;
+  left: 75px;
   margin-bottom: 100px;
-  width: 80%;
+  width: 90%;
 
 
   @include mixin.sm-all {
@@ -25,5 +26,13 @@
   @include mixin.lg {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .containerGallery{
+  left: 20px;
+  top: 30px;
+  }
+
 }
 

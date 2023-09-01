@@ -15,7 +15,7 @@ body, html {
     font-family: "Montserrat", "serif";
     background-color: white;
     margin: auto;
-    max-width: 1400px;
+    max-width: 1440px;
   }
   
   @font-face {
@@ -23,6 +23,3 @@ body, html {
     src: local("Montserrat"), url("../styles/fonts/Montserrat-VariableFont_wght.ttf");
   }
 
-header {
-  margin: 0 20px;
-}
