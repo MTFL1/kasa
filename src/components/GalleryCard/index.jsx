@@ -1,18 +1,17 @@
 import React from 'react';
-import housing from '../../datas/housing.json' 
-import Card from '../Card' 
-import './galleryCard.scss'
+import housing from '../../datas/housing.json';
+import Card from '../Card';
+import './galleryCard.scss';
 
-
-
+// Composant GalleryCard pour afficher une galerie de cartes de logement
 function GalleryCard() {
   return (
     <div className="containerGallery">
-        {housing.map((housing) => (
-            <Card image={housing.cover} id={housing.id} title={housing.title} key={housing.id}/>
-        ))}
+      {housing.map((housingItem) => (
+        <Card image={housingItem.cover} id={housingItem.id} title={housingItem.title} key={housingItem.id} />
+      ))}
     </div>
-)
+  );
 }
 
-export default GalleryCard
+export default GalleryCard;

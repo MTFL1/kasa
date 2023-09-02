@@ -1,18 +1,24 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
-import Router from './Router/Router'
-import "./assets/styles/index.scss"
-import Header from './components/Header'
-import Footer from './components/Footer'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import Router from './Router/Router';
+import "./assets/styles/index.scss";
+import Header from './components/Header';
+import Footer from './components/Footer';
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
+// Création de l'élément racine pour le rendu de l'application
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Rendu des composants dans l'élément racine
 root.render(
-      <BrowserRouter >
-        <Header />
-        <Router />
-        <Footer />
-      </BrowserRouter>
+  <BrowserRouter>
+    {/* Composant Header pour l'en-tête de l'application */}
+    <Header />
+
+    {/* Composant Router pour gérer les routes de l'application */}
+    <Router />
+
+    {/* Composant Footer pour le pied de page de l'application */}
+    <Footer />
+  </BrowserRouter>
 );
-
-

@@ -1,17 +1,20 @@
-import "./tags.scss"
+import React from "react";
+import "./tags.scss";
 
-function Tags({tags}) {
-    return (
-        <div className="tag">
-
-            {tags.map((tag, i) => {
-                return (
-                    <span className="tag__name" key={i}>{tag}</span>
-                )
-            })}
-
-        </div>
-    )
+// Composant Tags pour afficher des balises (tags)
+function Tags({ tags }) {
+  return (
+    <div className="tag">
+      {/* Utilisation de la méthode map pour afficher chaque tag */}
+      {tags.map((tag, i) => {
+        return (
+          <span className="tag__name" key={i}>
+            {tag}
+          </span>
+        );
+      })}
+    </div>
+  );
 }
 
-export default Tags
+export default Tags;

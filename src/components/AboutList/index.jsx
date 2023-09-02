@@ -1,8 +1,10 @@
 import "./aboutList.scss";
 import Collapse from "../../components/Collapse";
 
- function AboutList() {
-  const aboutData = () =>[
+// Fonction qui renvoie les données sur la page "À propos"
+function AboutList() {
+  // Tableau de données sur la page "À propos"
+  const aboutData = () => [
     {
       title: "Fiabilité",
       text:
@@ -32,11 +34,12 @@ import Collapse from "../../components/Collapse";
 
   return (
     <div className="collapse_gallery">
-        {aboutData().map((data, index) => (
-            <Collapse title={data.title} content={data.text} key={index}/>
-        ))}
+      {/* Mapping des données "À propos" pour afficher les sections de collapse */}
+      {aboutData().map((data, index) => (
+        <Collapse title={data.title} content={data.text} key={index} />
+      ))}
     </div>
-)
+  );
 }
 
-export default AboutList
+export default AboutList;

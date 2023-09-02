@@ -1,12 +1,14 @@
+import React from "react";
 import "./host.scss";
 
-function HostInfo({image, host}) {
-    return (
-        <div className="host">
-            <p className="host__name">{host}</p>
-            <img src={image} alt="Host cover"/>
-        </div>
-    )
+// Composant HostInfo pour afficher des informations sur l'hôte
+function HostInfo({ image, host }) {
+  return (
+    <div className="host">
+      <p className="host__name">{host}</p>
+      <img src={image} alt="Couverture de l'hôte" />
+    </div>
+  );
 }
 
 export default HostInfo;

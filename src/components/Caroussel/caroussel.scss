@@ -1,39 +1,41 @@
 .slides {
     margin: 20px 0;
     position: relative;
-
+  
     &__controller {
-        position: absolute;
-        width: 100%;
-        top: 40%;
-        display: flex;
-        justify-content: space-between;
-        button {
-            background-color: transparent;
-            border: none;
-            padding: 0 10px;
-        }
+      position: absolute;
+      width: 100%;
+      top: 40%;
+      display: flex;
+      justify-content: space-between;
+  
+      button {
+        background-color: transparent;
+        border: none;
+        padding: 0 10px;
+      }
     }
-
+  
     &__container {
-        img {
-            border-radius: 25px;
-            height: 414px;
-            width: 100%;
-            object-fit: cover;
-        }
+      img {
+        border-radius: 25px;
+        height: 414px;
+        width: 100%;
+        object-fit: cover;
+      }
     }
-
+  
     &__hidden {
-        display: none;
+      display: none;
     }
-
+  
     &__counter {
-        color: white;
-        position: absolute;
-        bottom: 5%;
-        left: 50%;
-        font-size: 18px;
-        font-weight: 500;
+      color: white;
+      position: absolute;
+      bottom: 5%;
+      left: 50%;
+      font-size: 18px;
+      font-weight: 500;
     }
-}
+  }
+  

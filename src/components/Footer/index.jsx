@@ -2,13 +2,14 @@ import React from "react";
 import "./footer.scss";
 import LogoFooter from "../../assets/images/LogoFooter.svg";
 
-function Index() {
-    return (
-      <footer>
-          <img src={LogoFooter} alt="Logo" />
-          <span>© 2023 Kasa. All rights reserved</span>
-      </footer>
-    );
-  }
-  
-  export default Index
+// Composant Footer pour afficher le pied de page
+function Footer() {
+  return (
+    <footer>
+      <img src={LogoFooter} alt="Logo" />
+      <span>© 2023 Kasa. Tous droits réservés</span>
+    </footer>
+  );
+}
+
+export default Footer;
