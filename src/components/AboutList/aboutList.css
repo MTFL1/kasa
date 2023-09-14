@@ -1,0 +1,18 @@
+.collapse_gallery {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+@media screen and (max-width: 1024px) {
+  .collapse_gallery {
+    margin-left: 90px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .collapse_gallery {
+    width: 90%;
+    margin: 20px;
+  }
+}/*# sourceMappingURL=aboutList.css.map */

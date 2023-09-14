@@ -1,6 +1,5 @@
 .footer {
   background-color: black;
-  position: absolute;
   width: 100%;
   min-height: 209px;
   display: flex;
@@ -8,17 +7,18 @@
   gap: 28px;
   align-items: center;
   padding: 66px 0 29px 0;
-  margin-top: 50px;    
+  margin-top: 50px;
 }
+
 span {
   color: #FFFFFF;
   margin: 0;
 }
+
 /*@media screen and (max-width: 1024px) {
 
 }
 
 @media screen and (max-width: 769px) {
 
-}*/
-
+}*//*# sourceMappingURL=footer.css.map */

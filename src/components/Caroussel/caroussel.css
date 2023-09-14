@@ -1,0 +1,40 @@
+.slides {
+  margin: 20px 0;
+  position: relative;
+}
+.slides__controller {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.slides__controller button {
+  background-color: transparent;
+  border: none;
+  padding: 0 10px;
+}
+.slides__container img {
+  border-radius: 25px;
+  height: 414px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.slides__hidden {
+  display: none;
+}
+.slides__counter {
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 769px) {
+  .slides__container img {
+    height: 350px;
+  }
+}/*# sourceMappingURL=caroussel.css.map */

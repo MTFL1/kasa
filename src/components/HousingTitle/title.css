@@ -1,0 +1,22 @@
+.Housetitle {
+  color: #FF6060 !important;
+  display: flex;
+  flex-direction: column;
+}
+.Housetitle h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 52px;
+}
+.Housetitle h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 769px) {
+  .Housetitle h1 {
+    font-size: 26px;
+  }
+}/*# sourceMappingURL=title.css.map */

@@ -1,5 +1,6 @@
 .banner-img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 14rem;
   margin: 0 5%;
   filter: brightness(70%);
@@ -8,7 +9,7 @@
 }
 
 .banner-text {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   color: white;
   font-size: 3rem;
   position: relative;
@@ -27,16 +28,15 @@
     margin: 0 0 4rem;
     margin-right: 25px;
   }
-
   .banner-img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 8rem;
     margin: 0px 7%;
     filter: brightness(70%);
     border-radius: 1rem;
     width: 91%;
   }
-
   .banner-text {
     font-size: 1.1rem;
     bottom: 4.5rem;
@@ -49,7 +49,6 @@
     height: 8rem;
     width: 96.5%;
     margin: 0px 5%;
-
   }
   .banner-text {
     font-size: 1.4rem;
@@ -57,4 +56,4 @@
     width: 15rem;
     left: 9%;
   }
-}
+}/*# sourceMappingURL=banner.css.map */

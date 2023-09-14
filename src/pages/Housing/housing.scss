@@ -4,6 +4,7 @@
   
     &__info {
       display: flex;
+
     }
   
     &__presentation {
@@ -19,16 +20,31 @@
     }
   
     &__rating {
-      width: 50%;
       display: flex;
       flex-direction: column;
-      gap: 20px;
       align-items: flex-end;
     }
-  
-    @media screen and (max-width: 768px) {
-      margin-left: 22px;
-  
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .housing {
+      width: 90%;
+      margin-left: 50px;
+      margin-bottom: 80px;
+
+        &__collapses {
+          flex-direction: column;
+          gap: 0px;
+
+        }
+        &__rating {
+        margin-top: 10px;
+        }
+      }
+}
+    @media screen and (max-width: 769px) {
+      .housing {
+    width: 90%;
+    margin-left: 23px;
       &__info {
         flex-direction: column;
         gap: 15px;
@@ -37,10 +53,9 @@
   
       &__rating {
         width: 100%;
-        gap: 260px;
         flex-direction: row-reverse;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
       }
   
       &__collapses {
@@ -48,5 +63,5 @@
         gap: 0px;
       }
     }
-  }
-  
+    }
+

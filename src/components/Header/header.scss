@@ -28,6 +28,16 @@
       text-decoration: underline;
     }
   
+    @media screen and (min-width: 769px) and (max-width: 991px) {
+      
+        margin-left: 45px;
+     
+      .divLink{
+       width: 30%;
+      }
+    
+     }
+
     @media screen and (max-width: 768px) {
       margin-left: 20px;
       width: 90%;
@@ -46,4 +56,4 @@
       }
     }
   }
-  
+ 

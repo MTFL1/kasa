@@ -1,0 +1,57 @@
+.housing {
+  width: 90%;
+  margin-left: 75px;
+}
+.housing__info {
+  display: flex;
+}
+.housing__presentation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.housing__collapses {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 25px;
+}
+.housing__rating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .housing {
+    width: 90%;
+    margin-left: 50px;
+  }
+  .housing__collapses {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .housing__rating {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .housing {
+    width: 90%;
+    margin-left: 23px;
+  }
+  .housing__info {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+  .housing__rating {
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .housing__collapses {
+    flex-direction: column;
+    gap: 0px;
+  }
+}/*# sourceMappingURL=housing.css.map */

@@ -31,7 +31,7 @@ function Carousel(props) {
           className={index === currentPicture ? "slides__container" : "slides__hidden"}
           key={index}
         >
-          <img src={picture} alt="Carousel item" />
+          <img className="img-caroussel" src={picture} alt="Carousel item" />
         </div>
       ))}
 

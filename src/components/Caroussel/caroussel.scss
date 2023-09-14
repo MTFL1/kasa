@@ -38,4 +38,12 @@
       font-weight: 500;
     }
   }
-  
+  @media screen and (max-width: 769px) {
+    .slides {
+      &__container {
+        img {
+          height: 350px;
+        }
+      }
+  }
+}

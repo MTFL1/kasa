@@ -1,0 +1,14 @@
+.rating {
+  display: flex;
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .rating {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .rating {
+    width: 30px;
+  }
+}/*# sourceMappingURL=rating.css.map */

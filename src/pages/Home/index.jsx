@@ -4,6 +4,7 @@ import imageWelcome from "../../assets/images/imageWelcome.png";
 import GalleryCard from "../../components/GalleryCard";
 import "./home.scss";
 
+
 // fonction Home pour afficher la page d'accueil
 function Home() {
   return (

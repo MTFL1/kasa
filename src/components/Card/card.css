@@ -1,0 +1,63 @@
+.card {
+  position: relative;
+  filter: brightness(85%);
+}
+
+.image {
+  max-height: 255px;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+@media (min-width: 577px) and (max-width: 769px) {
+  .image {
+    max-height: 255px;
+    min-width: 340px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .image {
+    min-height: 340px;
+    min-width: 340px;
+  }
+}
+@media (min-width: 993px) {
+  .image {
+    min-height: 340px;
+    min-width: 340px;
+  }
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  filter: brightness(100%);
+  box-shadow: 5px 15px 15px var(--gray-2);
+  transition: all 0.4s ease-in-out;
+}
+
+.titleCard {
+  color: white !important;
+  display: inline-flex;
+  position: absolute;
+  padding-inline-end: 40px;
+  left: 20px;
+  bottom: 40px;
+  font-size: 18px;
+}
+@media (min-width: 577px) and (max-width: 769px) {
+  .titleCard {
+    font-size: 22px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .titleCard {
+    font-size: 24px;
+  }
+}
+@media (min-width: 993px) {
+  .titleCard {
+    font-size: 26px;
+  }
+}/*# sourceMappingURL=card.css.map */

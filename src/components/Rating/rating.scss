@@ -1,22 +1,17 @@
 .rating {
     display: flex;
-    justify-content: flex-end;
-
-    img {
-        width: 100%;
-    }
 }
 
-@media screen and (max-width: 768px) {
-    .rating {
-        justify-content: flex-start;
-    }
-}
+
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
     .rating {
-        img {
-            width: 10%;
-        }
+        width: 180px;
+    }
+    
+}
+@media screen and (max-width: 769px) {
+    .rating {
+        width: 30px;
     }
 }

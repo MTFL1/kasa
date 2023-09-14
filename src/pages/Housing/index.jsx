@@ -23,7 +23,7 @@ function Housing() {
   }
 
   return (
-    <main className="housing">
+    <div className="housing">
       {/* Composant Carousel pour afficher les images du logement */}
       <Carousel pictures={logement.pictures} />
 
@@ -50,9 +50,10 @@ function Housing() {
         <Collapse title="Description" content={logement.description} />
         
         {/* Composant Collapse pour afficher les équipements du logement */}
-        <Collapse title="Équipement" content={logement.equipments} />
+        <Collapse title="Équipements" content={logement.equipments} />
       </div>
-    </main>
+    </div>
+   
   );
 }
 
