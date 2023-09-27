@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kasa/static/css/main.1b3ab549.css",
+    "main.js": "/kasa/static/js/main.3ebd5085.js",
+    "static/media/aboutBanner.png": "/kasa/static/media/aboutBanner.350d093724e2e528ebd4.png",
+    "static/media/imageWelcome.png": "/kasa/static/media/imageWelcome.912a2785d9054e272f03.png",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/kasa/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
+    "static/media/LogoFooter.svg": "/kasa/static/media/LogoFooter.ee689fd9409d1b5a898b4247819d8a00.svg",
+    "index.html": "/kasa/index.html",
+    "static/media/arrowDown.svg": "/kasa/static/media/arrowDown.16b912f87ce2849e129df0379fac8d0e.svg",
+    "static/media/arrowUp.svg": "/kasa/static/media/arrowUp.8af8181aca356827188c3642bf0cfe8b.svg",
+    "static/media/arrowRight.svg": "/kasa/static/media/arrowRight.02207c39e9331b27e102f31dd4b9cda8.svg",
+    "static/media/arrowLeft.svg": "/kasa/static/media/arrowLeft.24403b43f0e111fe8e05fd009009f212.svg",
+    "main.1b3ab549.css.map": "/kasa/static/css/main.1b3ab549.css.map",
+    "main.3ebd5085.js.map": "/kasa/static/js/main.3ebd5085.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b3ab549.css",
+    "static/js/main.3ebd5085.js"
+  ]
+}
